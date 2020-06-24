@@ -1,7 +1,7 @@
 {
   "name": "PROJECTLEO",
   "scripts": {
-    "start": "src/server.js"
+    "start": "/home/site/wwwroot/src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
