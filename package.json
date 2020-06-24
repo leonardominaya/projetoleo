@@ -1,7 +1,7 @@
 {
-  "name": "NLW",
+  "name": "PROJECT LEO",
   "scripts": {
-    "start": "${workspaceroot}/src/server.js"
+    "start": "src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
