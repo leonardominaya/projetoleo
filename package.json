@@ -1,7 +1,7 @@
 {
   "name": "NLW",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "${workspaceroot}/src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
