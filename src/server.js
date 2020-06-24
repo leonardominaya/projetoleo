@@ -1,10 +1,10 @@
-const express = require("express")
+import express, { static } from "express"
 const server = express()
 
-server.use(express.static("public"))
+server.use(static("public"))
 
-const nunjucks = require("nunjucks")
-nunjucks.configure("src/views", {
+import { configure } from "nunjucks"
+configure("src/views", {
     express: server,
     nocache: true
 })
