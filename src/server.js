@@ -1,9 +1,9 @@
-const express = require("express")
-const server = express()
+var express = require("express")
+var server = express()
 
 server.use(static("public"))
 
-const nunjucks = require("nunjucks")
+var nunjucks = require("nunjucks")
 configure("src/views", {
     express: server,
     nocache: true
@@ -25,4 +25,4 @@ server.get("/search", (req, res) =>{
 //     return res.render("/partials/page-header.html")
 // })
 
-server.listen(3000)
+server.listen(443)
