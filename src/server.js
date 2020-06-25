@@ -1,9 +1,9 @@
-import express, { static } from "express"
+const express = require("express")
 const server = express()
 
 server.use(static("public"))
 
-import { configure } from "nunjucks"
+const nunjucks = require("nunjucks")
 configure("src/views", {
     express: server,
     nocache: true
